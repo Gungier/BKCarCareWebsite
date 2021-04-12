@@ -1,12 +1,13 @@
 import React from 'react';
-import '../App.css'
+import '../App.css';
+import images from './images';
 import { Button } from './Button';
 import './BnK.css';
 
 function BnK() {
     return (
         <div className='bnk-container'>
-            <video src='/assets/images/videoFile.mp4' autoPlay loop muted/> 
+            <image src='./images/orangeLamboHoodUp.jpg' /> 
             <h1>SERVICE YOU CAN RELY ON</h1>
             <div className="bNk-btns">
                 <Button 
