@@ -1,32 +1,31 @@
 import React from 'react';
 import '../App.css';
-import images from './images';
 import { Button } from './Button';
-import './BnK.css';
+import './Hero.css';
 
-function BnK() {
+function Hero() {
     return (
-        <div className='bnk-container'>
-            <image src='./images/orangeLamboHoodUp.jpg' /> 
+        <div className='hero-container'>
             <h1>SERVICE YOU CAN RELY ON</h1>
-            <div className="bNk-btns">
+            <div className="hero-btns">
                 <Button 
                     className='btns'
                     buttonStyle='btn--outline'
                     buttonSize='btn--large'
                 >
-                    GET STARTED
+                    LIST OF SERVICES
                 </Button>
                 <Button 
                     className='btns'
                     buttonStyle='btn--primary'
                     buttonSize='btn--large'
+                    onClick={console.log('Hey')}
                 >
-                    Foo-Bar <i className='far fa-play-circle' />
+                    PHOTO GALLERY <i className='far fa-play-circle' />
                 </Button>
             </div>
         </div>
     )
 }
 
-export default BnK
+export default Hero

@@ -1,11 +1,11 @@
 import React from 'react';
 import '../../App.css';
-import BnK from '../BnK';
+import Hero from '../Hero';
 
 function Home () {
     return (
         <>
-        <BnK />
+        <Hero />
         </>
     );
 };
