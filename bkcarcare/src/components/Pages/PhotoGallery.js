@@ -1,5 +1,5 @@
 import React from 'react'; 
-import BKphotos from 'b&kShopPhotos';
+//import BKphotos from 'b&kShopPhotos';
 
 function Photos (){
 
