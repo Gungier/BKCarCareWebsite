@@ -27,7 +27,7 @@
 } 
 
 .aboutUs {
-  background-image: url('components/images/img-2.jpg');
+  background-image: url('components/images/formualBackLit.jpg');
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
@@ -36,7 +36,7 @@
 }
 
 .photoGalary {
-  background-image: url('components/images/img-3.jpg');
+  background-image: url('components/images/orangeLamboBay.jpg');
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
@@ -45,7 +45,7 @@
 }
 
 .contactUs {
-  background-image: url('components/images/img-3.jpg');
+  background-image: url('components/images/pTurboS.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
